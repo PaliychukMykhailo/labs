@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
             answerBlock.style.color = "red";
             answerBlock.innerHTML = "Довжина катету не можи бути меншою або дорівнювати нулю!";
         } else {
-            answer = Math.sqrt((katet1 ** 2) + (katet2 ** 2));
+            let answer = Math.sqrt((katet1 ** 2) + (katet2 ** 2));
             answerBlock.style.color = "black";
             answerBlock.innerHTML = "Довжина гіпотенузи = " + answer;
             document.querySelector("form").reset();
