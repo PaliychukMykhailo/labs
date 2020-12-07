@@ -13,8 +13,11 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-
+h1 {
+    font-size: 40px;
+}
 .title {
+    font-size: 35px;
     margin: 50px 0;
 }
 
@@ -90,6 +93,6 @@ input[type="button"]:active {
     width: 0;
     height: 0;
     margin: 0 auto;
-	border-bottom: 170px solid rgb(91, 201, 70); 
-	border-right: 170px solid transparent;
+    border-bottom: 170px solid rgb(91, 201, 70); 
+    border-right: 170px solid transparent;
 }
